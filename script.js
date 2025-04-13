@@ -1,7 +1,7 @@
 async function getWeather() {
   const city = document.getElementById('cityInput').value;
   const weatherApiKey = 'f331453afd22462d8a9134350251204';
-  const openaiApiKey = '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';
+  const openaiApiKey = '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';
 
   const weatherUrl = `https://api.weatherapi.com/v1/forecast.json?key=${weatherApiKey}&q=${city}&days=5&aqi=yes&alerts=no`;
 
